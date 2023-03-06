@@ -1,0 +1,19 @@
+{
+	"name": "pinball-p5play",
+	"version": "1.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"v": "npm version patch --force",
+		"V": "npm version minor --force",
+		"version": "git add -A",
+		"postversion": "git push"
+	},
+	"author": "EgorDenisov",
+	"license": "ISC",
+	"dependencies": {
+		"p5": "^1.5.0",
+		"p5.play": "^3.6.2"
+	}
+}
